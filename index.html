@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hilguener's Personal Site</title>
+    <style>
+    body{
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+       
+    }
+    header{
+        padding: 34px;
+    }
+    
+    div.nome > p{
+        font-weight: bold;
+    }
+    
+    img{
+        padding: -10px;
+        width: 200px;
+        position: absolute;
+    }
+    table{
+        width: 600px;
+        border-collapse: collapse;
+        position: relative;
+        display: inline-flexbox;
+    }
+    em > a{
+        color: black;
+    }
+    td, th{
+        border: 1px solid black;
+        padding: 5px;
+        text-align: center;
+    }
+    hr{
+        height: 4.5px; 
+        background-color: rgba(0, 0, 0, 0.637);
+    }
+    a{
+        color: black;
+        text-decoration: none;
+    }
+    a:hover{
+        color: rgba(0, 0, 0, 0.637);
+    }
+    .skills:hover{
+        background-color: rgba(211, 211, 211, 0.418);
+    }
+    thead > tr > th{
+        position: sticky;
+        top: -1px;
+        background-color: rgb(99, 97, 97);
+        color: white;
+    }
+    tbody > tr:nth-child(even){
+        background-color: lightgray;
+    }
+   div.nome{
+        position: relative;
+        display: inline-block;
+        padding-left: 234px;
+        padding-top: 23px;
+   }
+   td.skills{
+       border: none;
+       text-align: left;
+       font-style: italic;
+       font-weight: bold;
+   }
+   footer{
+       background-color: lightgray;
+       border-radius: 10px;
+   }
+    footer > p > a{
+       font-weight: bold;
+       font-size: 2vh;
+       padding-left: 20px;
+       text-align: center;
+   }
+   div.center{
+        position: relative;
+        margin: auto;
+        padding-left:1px;
+        overflow-x: auto;
+   }
+   div#container{
+       overflow-x: auto;
+   }
+    </style>
+</head>
+<body>
+    <main>
+        <header>
+            <img src="Hilguener profile pic-modified.png" alt="" class="profile">
+            <div class="nome">
+                <h1>Higuener Silva</h1>
+                <p><em>Founder and CTO of <a href="https://www.appbrewery.co/" target="_blank" rel="external">The app Brewery</em></a></p>
+                <p>I am an iOS and Web developer. I love coffee and brew my own beers</p>
+            </div>
+        </header>
+        <hr>
+        <h2>Books and Teaching</h2>
+        <ul>
+            <li>The Complete iOS App Devolpmenter Bootcamp </li>
+            <li>The Complete Web Devolopment Bootcamp</li>
+        </ul>
+        <h3>Work Experience</h3>
+            <div id="container">
+                    <table>
+                        <thead>
+                            <th>Dates</th>
+                            <th>Work</th>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>2010</td>
+                                <td>Reseacher at The Institute of Cognotive Neurosciences</td>
+                            </tr>
+                            <tr>
+                                <td style="width: 100px;">2010-2013</td>
+                                <td>Lead Developer at Tempo APP</td>
+                            </tr>
+                            <tr>
+                                <td>2014 - 2018</td>
+                                <td>Mix Bahia</td>
+                            </tr>
+                            <tr>
+                                <td>2019 - 2021</td>
+                                <td>Minuano Estofados</td>
+                            </tr>
+                            <tr>
+                                <td>2021 - currently</td>
+                                <td>Poltry Slaughterer at Granja Pinheiros</td>
+                            </tr>
+                            <tr>
+                                <td>2541</td>
+                                <td>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</td>
+                            </tr>
+                            <tr>
+                                <td>5457</td>
+                                <td>Lorem ipsum dolor sit amet consectetur adipisicing elit. </td>
+                            </tr>
+        
+                        </tbody>
+                    </table>
+                <hr>
+            </div>
+                <div class="center">
+                    <h3>Skills</h3>
+                    <table>
+                        <tr>
+                            <td class="skills">Android Development</td>
+                            <td class="skills">⭐⭐⭐⭐⭐</td>
+                            <td class="skills">MySQL</td>
+                            <td class="skills">⭐⭐⭐⭐</td>
+                        </tr>
+                        <tr>
+                            <td class="skills">iOS Development</td>
+                            <td class="skills">⭐⭐⭐⭐⭐</td>
+                            <td class="skills">PHP</td>
+                            <td class="skills">⭐⭐⭐</td>
+                        </tr>
+                        <tr>
+                            <td class="skills">HTML 5</td>
+                            <td class="skills">⭐⭐⭐⭐⭐</td>
+                            <td class="skills">JavaScript</td>
+                            <td class="skills">⭐⭐⭐</td>
+                        </tr>
+                        <tr>
+                            <td class="skills">CSS3</td>
+                            <td class="skills">⭐⭐⭐⭐</td>
+                            <td class="skills">Java</td>
+                            <td class="skills">⭐⭐</td>
+                        </tr>
+                    </table>
+                </div>
+        
+            <hr>
+        <footer>
+            <p><a href="hobbies.html">My Hobbies</a> <a href="Contact Me.html">Contact Me</a></p>
+        </footer>
+    </main>
+   
+    
+</body>
+</html>
